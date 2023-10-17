@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bestätigung deiner E-Mail-Adresse</title>
+    <style>
+        .m-t-b {
+            margin-top: 25px;
+            margin-bottom: 25px;
+        }
+        .logo-design {
+            width: 150px;
+            height: 30px;
+            border-radius: 16px;
+        }
+    </style>
+</head>
+<body>
+    <table width="100%" cellpadding="0" cellspacing="0">
+        <tr>
+            <td align="center"> 
+                <table width="600" cellpadding="0" cellspacing="0" style="border-collapse: collapse;">
+                    <tr>
+                        <td style="padding: 40px 0; text-align: center;"> 
+                            <p style="color: rgb(217,27,13); font-weight: bold; font-size: 25px;">Dogflix</p>
+                            <h1>Bitte bestätige deine E-Mail-Adresse</h1>
+                            <p>Hallo {{ username }} ,</p>
+                            <p>herzlichen Dank, für deine Registrierung bei DOGFLIX! Wir freuen uns sehr, dich in unserer Dog-Community begrüßen zu dürfen.</p>
+                            <p>Zur Aktivierung deines Zugangs bitten wir dich, deine E-Mail-Adresse zu bestätigen.</p>
+                            <p style="margin: 25px 0 25px 0;"><a href="https://app-dogflix.marijandupkovic.com/activate/{{ token }}/" style="background-color: #007bff; color: #ffffff; padding: 12px 24px; text-decoration: none; border-radius: 5px; font-weight: bold;">Jetzt bestätigen</a></p>
+                            <p>Mit freundlichen Grüßen,<br/>Dein DOGFLIX-Team</p>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
